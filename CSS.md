@@ -38,7 +38,7 @@
 
     > 大部分编辑器都有自动移除尾部空格的功能，比如 Sublime Text。
 
-    
+
 ## 规则（Rule） ##
 
     规则 === 选择器 {
@@ -67,7 +67,7 @@
 
 - **分行**
 
-    每个选择器单独一行，选择器后加一空格，空格后的花括弧（`{`）不换行。
+    每个选择器单独一行，选择器后加一空格，空格后的花括号（`{`）不换行。
 
     多个选择器以逗号（`,`）分隔，在每个逗号后换行。
 
@@ -160,13 +160,13 @@
     尽量避免使用 CSS Hack。
 
     ```
-    .bg { 
-      background-color:#fff; 
-      background-color:#fff\9;   /* all IE */ 
-      background-color:#fff\0;   /* IE8-IE10 */ 
-      background-color:#fff\9\0; /* IE9-IE10*/ 
-      *background-color:#fff;    /* IE6-IE7 */ 
-      _background-color:#fff;    /* IE6 */ 
+    .bg {
+      background-color:#fff;
+      background-color:#fff\9;   /* all IE */
+      background-color:#fff\0;   /* IE8-IE10 */
+      background-color:#fff\9\0; /* IE9-IE10*/
+      *background-color:#fff;    /* IE6-IE7 */
+      _background-color:#fff;    /* IE6 */
     }
 
     :root .bg {
@@ -175,7 +175,7 @@
     }
 
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){
-      /* IE10 */ 
+      /* IE10 */
     }
     ```
 
@@ -200,5 +200,5 @@
       display: table;
     }
 
-    .clearfix{ *zoom;} 
+    .clearfix{ *zoom;}
     ```
