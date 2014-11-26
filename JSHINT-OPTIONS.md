@@ -1,10 +1,10 @@
-# JSHint 选项 #
+# JSHint 选项
 
 
 以下是对 [JSHint Options](http://jshint.com/docs/options/) 的简注。
 
 
-## 加强参数（Enforcing Options） ##
+## 加强参数（Enforcing Options）
 
 
 本类参数设为 `true`，JSHint 会产生更多告警，所以叫“加强”。
@@ -135,7 +135,7 @@
     一行中允许的最大字符数。
 
 
-## 放松参数（Relaxing Options） ##
+## 放松参数（Relaxing Options）
 
 
 本类参数设为 `true`，JSHint 会产生更少告警，所以叫“放松”。
@@ -355,7 +355,7 @@
     允许发生器中没有 `yield` 语句
 
 
-## 环境参数（Enviroments） ##
+## 环境参数（Enviroments）
 
 
 预定义一些全局变量，如node等，没什么好理解的。
