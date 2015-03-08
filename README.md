@@ -6,7 +6,7 @@
 **以下三个为编辑器必备插件：**
 
 - .editorconfig
-- .jshitrc
+- .jshintrc
 - .jsbeautifyrc
 
 
