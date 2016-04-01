@@ -153,8 +153,6 @@
     var n = 10;
     ```
 
-- 避免修改内置对象的原型，如（`Object.prototype`、`Array.prototype`）。
-
 
 ## 对象字面量
 
